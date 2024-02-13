@@ -11,7 +11,7 @@ const App_State = (props) => {
   const [users, setUsers] = useState([]);
   const [reload, setReload] = useState(false);
 
-  const url = "http://localhost:9090/api";
+  const url = "https://blog-api-iva8.onrender.com/api";
 
   useEffect(() => {
     const fetchBlog = async () => {
